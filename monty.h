@@ -2,11 +2,11 @@
 #define MONTY_H
 
 #include <stdio.h>
-include <stdlib.h>
+#include <stdlib.h>
 #include <string.h>
-####include <unistd.h>###
-####include <stdbool.h>###
-####include <ctype.h>###
+#include <unistd.h>
+#include <stdbool.h>
+#include <ctype.h>
 
 /**
  * struct stack_s - doubly linked list representation of a stack (or queue)
