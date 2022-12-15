@@ -6,7 +6,7 @@ Our interpreter can be run as either a stack (LIFO) or queue (FIFO). Mode can be
 
 ## :running: Getting Started
 
-* [Ubuntu 20.04 LTS](http://releases.ubuntu.com/20.04/) - Operating system reqd.
+* [Ubuntu 20.04 LTS](http://releases.ubuntu.com/20.04/) - Operating system required.
 
 * [GCC 4.8.4](https://gcc.gnu.org/gcc-4.8/) - Compiler used
 
