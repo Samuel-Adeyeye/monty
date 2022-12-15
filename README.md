@@ -111,7 +111,7 @@ Run the interpreter on a file:
 
 ## :clipboard: Examples
 
-Note, Monty Interpreter runs in the default mode of STACK mode. Meaning it uses a stack. To switch to queue mode, see examples below.
+Note, Monty Interpreter runs in the default mode of STACK mode. Meaning it uses a stack. To switch to queue mode, see examples below:
 
 Push values onto the stack and print them all, or the top of the stack/front of queue.
 
