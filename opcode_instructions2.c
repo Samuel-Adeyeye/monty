@@ -60,7 +60,7 @@ void _add(stack_t **doubly, unsigned int cline)
 }
 
 /**
- * _nop - doesn't do anythinhg
+ * _nop - doesn't do anything.
  *
  * @doubly: head of the linked list
  * @cline: line number;
