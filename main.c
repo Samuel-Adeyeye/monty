@@ -17,7 +17,7 @@ void free_vglo(void)
 /**
  * start_vglo - initializes the global variables
  *
- * @fd: file descriptor
+ * @fd: file descriptor.
  * Return: no return
  */
 void start_vglo(FILE *fd)
