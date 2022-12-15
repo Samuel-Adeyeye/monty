@@ -63,7 +63,7 @@ typedef struct instruction_s
 
 extern global_t vglo;
 
-/* opcode_instructuions*/
+/* OPCODE_INSTRUCTIONS */
 void _push(stack_t **stack, unsigned int line_number);
 void _pall(stack_t **stack, unsigned int line_number);
 void _pint(stack_t **doubly, unsigned int cline);
@@ -82,17 +82,17 @@ void _pstr(stack_t **doubly, unsigned int cline);
 void _rotl(stack_t **doubly, unsigned int cline);
 void _rotr(stack_t **doubly, unsigned int cline);
 
-/*get function*/
+/* GET FUNCTION */
 void (*get_opcodes(char *opc))(stack_t **stack, unsigned int line_number);
 
-/*imported functions*/
+/* IMPORTED FUNCTIONS */
 int _sch(char *s, char c);
 char *_strtoky(char *s, char *d);
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size);
 void *_calloc(unsigned int nmemb, unsigned int size);
 int _strcmp(char *s1, char *s2);
 
-/* doubly linked list functions */
+/* DOUBLY LINKED LIST FUNCTIONS */
 stack_t *add_dnodeint_end(stack_t **head, const int n);
 stack_t *add_dnodeint(stack_t **head, const int n);
 void free_dlistint(stack_t *head);
