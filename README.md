@@ -50,7 +50,7 @@ Run the interpreter on a file:
   * The parameter `<int>` must be an integer.
 
 * **pall**
-  * Prints all values in the stack/queue, starting from the top.
+  * Prints all values in the stack/queue, starting from the top.If the stack is empty, don't print anything.
 
 * **pint**
   * Prints the top value of the stack/queue.
